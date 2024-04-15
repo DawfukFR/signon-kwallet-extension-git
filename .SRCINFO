@@ -1,6 +1,6 @@
 pkgbase = signon-kwallet-extension-git
 	pkgdesc = KWallet integration for signon framework
-	pkgver = 24.04.70_r93.g01ab7d2
+	pkgver = 24.04.70_r95.gbe023c4
 	pkgrel = 1
 	url = https://kde.org
 	arch = x86_64

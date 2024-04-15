@@ -2,7 +2,7 @@
 # Maintainer: João Figueiredo & chaotic-aur <islandc0der@chaotic.cx>
 
 pkgname=signon-kwallet-extension-git
-pkgver=24.04.70_r93.g01ab7d2
+pkgver=24.04.70_r95.gbe023c4
 pkgrel=1
 pkgdesc="KWallet integration for signon framework"
 arch=($CARCH)
@@ -26,6 +26,7 @@ pkgver() {
 
 build() {
   cmake -B build -S ${pkgname%-git} \
+    -DQT_MAJOR_VERSION=6 \
     -DBUILD_TESTING=OFF
   cmake --build build
 }
