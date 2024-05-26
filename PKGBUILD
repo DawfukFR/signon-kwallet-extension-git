@@ -2,7 +2,7 @@
 # Maintainer: João Figueiredo & chaotic-aur <islandc0der@chaotic.cx>
 
 pkgname=signon-kwallet-extension-git
-pkgver=24.04.70_r95.gbe023c4
+pkgver=24.07.70_r97.g2b278ac
 pkgrel=1
 pkgdesc="KWallet integration for signon framework"
 arch=($CARCH)
